@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+ 
+.headText{
+    position: absolute;
+top: 300px;
+left: 250px;
+}
+.background{
+  height: 100%;
+  width: 100%;
+  top: -40px;
+}
+.frontPage {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    top: 0;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+#city{
+    margin-top: -550px;
+    font-size: 125%;
+  padding: 7px 20px;
+  border-color: darkblue;
+  border-radius: 9px;
+  border-style: solid;
+}
+
+#send{
+    border: solid 5px #fff;
+  border-radius: 9px;
+  color: #fffF;
+  font-size: 125%;
+  background-color: Transparent;
+  padding: 7px 20px;
+  text-transform: uppercase;
+}
+#send:hover {
+    color: rgb(21, 5, 170);
+    border: solid 3px  rgb(21, 5, 170);
+  }
+
+  #showWeather{
+    padding: 50px 0;
+    margin: 0 auto;
+    width: 1000px;
+    display: none;	}
+#temp{
+    font-size: 50px ;
+}
+#cast img{
+  
+   width: 100px;
+   height: 100px;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#cast{
+     color: white;
+    float: left;
+    margin-left: 10px;
+    border: solid 1px black;
+    width: 13%;
+    background:#0b0561;
+    height: 450px;
+    margin-bottom: 20px;
+    padding: 15px;
+    align-self:center;
+    margin-right: 20px;
+    font-size: 20px;}
+
+    h1{
+    text-align: center;
+    font-size:86px;
+  }
+	
+	input[type="text"]{ padding: 5px 5px; line-height: 20px; }
+	button{
+		height: 40px;}
